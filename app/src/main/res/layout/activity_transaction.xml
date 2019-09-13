@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbb"
+    android:orientation="vertical"
+    tools:context=".Transaction">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imagbanks"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10sp"
+        android:padding="10dp"
+        android:src="@drawable/bankcairo_1"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_marginTop="10sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+
+    <Button
+        android:id="@+id/btnreservation"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_weight="0"
+        android:background="@drawable/bouttonshape"
+        android:clickable="true"
+        android:text="Reservation"
+        android:textAllCaps="false"
+        android:textColor="#8bc43f"
+        android:textSize="18sp" />
+
+
+
+</LinearLayout>

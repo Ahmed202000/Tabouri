@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name_en">Tabouri</string>
+    <string name="action_settings_en">Settings</string>
+    <string name="title_activity_reservation_en">Reservation</string>
+
+
+    <string name="nav_header_title_en">nav_header_title</string>
+
+
+    <string name="nav_header_subtitle_en">nav_header_subtitle</string>
+
+
+    <string name="nav_header_desc_en">nav_header_desc</string>
+
+
+    <string name="navigation_drawer_open_en">navigation_drawer_open</string>
+
+
+    <string name="navigation_drawer_close_en">navigation_drawer_close</string>
+    <string name="title_activity_maps">title_activity_maps</string>
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
+    <string name="title_activity_branches1">Branches1</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+</resources>

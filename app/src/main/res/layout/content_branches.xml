@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbb"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Branches"
+    tools:showIn="@layout/app_bar_branches">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imagbank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:src="@drawable/bankcairo_1"/>
+
+    <Spinner
+        android:id="@+id/BranchesName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/txtaddress_branches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:text="Address Branches"
+        android:textColor="#ffffff"
+        android:textColorHint="#FFA8A8A8" />
+
+    <Button
+        android:id="@+id/btn_Transaction"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_weight="0"
+        android:background="@drawable/bouttonshape"
+        android:clickable="true"
+        android:text="Transaction"
+        android:textAllCaps="false"
+        android:textColor="#8bc43f"
+        android:textSize="18sp" />
+
+</LinearLayout>
